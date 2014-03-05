@@ -32,4 +32,9 @@ public class PrimeFactorsTest {
     public void factorsForThree(){
         assertEquals(expectedFactors(3), PrimeFactors.generate(3));
     }
+
+    @Test
+    public void factorsForFour(){
+        assertEquals(expectedFactors(2,2), PrimeFactors.generate(4));
+    }
 }
