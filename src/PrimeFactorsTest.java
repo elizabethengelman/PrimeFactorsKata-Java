@@ -14,4 +14,10 @@ public class PrimeFactorsTest {
     public void factorsForOne(){
         assertEquals(expectedFactors, PrimeFactors.generate(1));
     }
+
+    @Test
+    public void factorsForTwo(){
+        expectedFactors.add(2);
+        assertEquals(expectedFactors, PrimeFactors.generate(2));
+    }
 }
