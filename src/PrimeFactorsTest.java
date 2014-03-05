@@ -1,6 +1,17 @@
+import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import static junit.framework.Assert.assertEquals;
+
 /**
  * Created by elizabethengelman on 3/5/14.
  */
 public class PrimeFactorsTest {
-
+    List<Integer> expectedFactors = new ArrayList<Integer>();
+    @Test
+    public void factorsForOne(){
+        assertEquals(expectedFactors, PrimeFactors.generate(1));
+    }
 }
