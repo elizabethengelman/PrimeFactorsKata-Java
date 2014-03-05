@@ -20,4 +20,10 @@ public class PrimeFactorsTest {
         expectedFactors.add(2);
         assertEquals(expectedFactors, PrimeFactors.generate(2));
     }
+
+    @Test
+    public void factorsForThree(){
+        expectedFactors.add(3);
+        assertEquals(expectedFactors, PrimeFactors.generate(3));
+    }
 }
