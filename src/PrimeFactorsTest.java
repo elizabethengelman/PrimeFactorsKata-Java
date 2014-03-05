@@ -47,4 +47,9 @@ public class PrimeFactorsTest {
     public void factorsForEight(){
         assertEquals(expectedFactors(2,2,2), PrimeFactors.generate(8));
     }
+
+    @Test
+    public void factorsForNine(){
+        assertEquals(expectedFactors(3,3), PrimeFactors.generate(9));
+    }
 }

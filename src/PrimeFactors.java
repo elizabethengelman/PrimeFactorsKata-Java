@@ -7,15 +7,16 @@ import java.util.List;
 public class PrimeFactors {
     public static List<Integer> generate(int number){
         List<Integer> factors = new ArrayList<Integer>();
+        int tryNumber = 2;
+        while (number > 1){
+            while (number % tryNumber == 0){
+                factors.add(tryNumber);
+                number/= tryNumber;
+            }
+            tryNumber ++;
+        }
         if (number > 1){
-            while (number % 2 == 0){
-                factors.add(2);
-                number/= 2;
-            }
-
-            if (number > 1){
-                factors.add(number);
-            }
+            factors.add(number);
         }
         return factors;
     }
