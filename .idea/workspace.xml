@@ -64,10 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PrimeFactors.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PrimeFactors.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PrimeFactors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="3" selection-start="55" selection-end="55" vertical-scroll-proportion="0.100446425" vertical-offset="0" max-vertical-offset="448">
+            <state line="15" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#230#239#0" expanded="true" />
@@ -76,13 +76,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrimeFactorsTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PrimeFactorsTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PrimeFactorsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="64" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+            <state line="27" column="31" selection-start="619" selection-end="619" vertical-scroll-proportion="0.90401787" vertical-offset="0" max-vertical-offset="615">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#260#269#0" expanded="true" />
+                <element signature="e#315#324#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,8 +98,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/PrimeFactorsTest.java" />
         <option value="$PROJECT_DIR$/src/PrimeFactors.java" />
+        <option value="$PROJECT_DIR$/src/PrimeFactorsTest.java" />
       </list>
     </option>
   </component>
@@ -417,22 +417,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/PrimeFactorsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/PrimeFactors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="64" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+        <state line="15" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#260#269#0" expanded="true" />
+            <element signature="e#230#239#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PrimeFactors.java">
+    <entry file="file://$PROJECT_DIR$/src/PrimeFactorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="55" selection-end="55" vertical-scroll-proportion="0.100446425" vertical-offset="0" max-vertical-offset="448">
+        <state line="27" column="31" selection-start="619" selection-end="619" vertical-scroll-proportion="0.90401787" vertical-offset="0" max-vertical-offset="615">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#230#239#0" expanded="true" />
+            <element signature="e#315#324#0" expanded="true" />
           </folding>
         </state>
       </provider>
