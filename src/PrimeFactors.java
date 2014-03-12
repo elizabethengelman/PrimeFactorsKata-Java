@@ -15,9 +15,6 @@ public class PrimeFactors {
             }
             tryNumber ++;
         }
-        if (number > 1){
-            factors.add(number);
-        }
         return factors;
     }
 }
